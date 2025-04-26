@@ -1,18 +1,48 @@
-## Getting Started
+# 🎓 Student Management System
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## 🛠 Technologies Used
+- Java Swing & AWT (GUI)
+- JDBC (Database Connectivity)
+- MySQL (Database)
 
-## Folder Structure
+## 📖 Project Overview
+Developed a Student Management System with separate portals for administrators and students, enabling efficient course enrollment and management.
 
-The workspace contains two folders by default, where:
+## 🚀 Key Features
+- 🎨 **User-Friendly GUI**: Built using Java Swing and AWT for smooth user interaction.
+- 🗄️ **Database Integration**:  
+  - MySQL database to manage and store course information, user details, and fee structures.
+- 🔗 **Seamless Java-Database Connectivity**:  
+  - JDBC used for reliable and secure communication between the Java application and MySQL database.
+- 📚 **Functionalities**:  
+  - Course Enrollment  
+  - View Fee Structures  
+  - Manage Courses and Users (Admin)
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## 📂 Project Structure
+```plaintext
+/student-management-system
+├── src/                 # Java source files
+├── lib/                 # MySQL JDBC Connector .jar
+├── database/            # SQL scripts to create and populate the database
+├── README.md            # Project documentation
+└── resources/           # Images or additional resources
+```
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## ⚙️ How to Run
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/student-management-system.git
+   ```
+2. Set up the MySQL database:
+   - Import the provided `.sql` script from the `database/` folder.
+   - Configure your database credentials (URL, username, password) in the Java code.
+3. Compile and run the project:
+   - Make sure to add the MySQL Connector `.jar` file to your project's classpath.
+   - Run the main file to start the application.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## 📢 Important Notes
+- Ensure the MySQL server is running when using the application.
+- Update database credentials properly before running.
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+---
